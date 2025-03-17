@@ -1,0 +1,210 @@
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.start{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.end{
+    background-color: rgb(86, 85, 85);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;;
+    font-weight: bold; 
+}
+.header-content{
+     text-align: center;
+     margin: 15px;
+}
+.parent-section{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    gap: 30px;
+    
+}
+.t{
+    margin-bottom: 80px;
+}
+.pera{
+    opacity: 60%;
+}
+.btn{
+    background-color: rgb(123, 175, 243);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border: none;
+    border-radius: 7px;;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.new{
+    text-align: center;
+    padding: 80px;
+    margin: 0 300px 0 300px;
+    
+
+}
+.part{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: 290px;
+    background-color: rgb(255, 255, 255);
+}
+.second{
+    width: 200px;
+    margin-top: 20px;
+}
+.next{
+    width: 95px;
+}
+.part-of{
+    margin-top: 50px;
+}
+.more{
+    font-size: 15px;
+    opacity: 70%;
+    padding: 10px 10px 10px 0;
+}
+.options{
+    margin: 35px;
+    width: 1000px;
+}
+.break{
+    padding: 9px;
+    border-radius: 9px;
+    background-color: rgba(26, 188, 203, 0.991);
+    color: rgb(255, 254, 254);
+    border: none;
+}
+.extra{
+    width: 900px;
+    background-color: rgb(248, 235, 219);
+    margin: auto;
+    border-radius: 10px;
+}
+.play{
+    width: 880px;
+}
+.about{
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+.on{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.for{
+    padding: 30px;
+    opacity: 50%;
+    font-size: 18px;
+}
+.skills{
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(253, 251, 251);
+    border-radius: 10px;
+}
+.skills-conteiner{
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+.skill{
+    background-color: rgb(252, 244, 184);
+    padding: 30px;
+    border-radius: 7px;
+}
+    
+.skill-1{
+    background-color: rgb(201, 255, 234);
+    padding: 30px;
+    border-radius: 7px;
+}
+.skill-title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    opacity: 70%;
+    margin: 10px 0 10px 0;
+}
+.option{
+    color: rgb(2, 2, 2);
+    margin-top: 20px;
+}
+.out{
+    background-image: url(../assets/handshake.jpg);
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px; 
+    border-radius: 7px;
+}
+.text{
+    color: white;
+    padding: 30px;
+}
+.text-header{
+    color: white;
+}
+.past{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.post{
+    background-color:white;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.last{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 251, 246, 0.811);
+}
+
+.item{
+    inline-size: 30px;
+    padding: 7px;
+}
+.items{
+    padding: 20px;
+}
+
+
+
