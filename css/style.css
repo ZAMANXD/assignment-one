@@ -8,24 +8,7 @@
     margin: 0;
     padding: 0;
 }
-.start{
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-.end{
-    background-color: rgb(86, 85, 85);
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 7px;;
-    font-weight: bold; 
-}
-.header-content{
-     text-align: center;
-     margin: 15px;
-}
+
 .parent-section{
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
@@ -62,19 +45,13 @@
     font-weight: bold;
     margin-top: 20px;
 }
-.new{
-    text-align: center;
-    padding: 80px;
-    margin: 0 300px 0 300px;
-    
 
-}
 .part{
-    width: 60%;
+    max-width: 900px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    margin-left: 290px;
+    margin: auto;
     background-color: rgb(255, 255, 255);
 }
 .second{
@@ -92,9 +69,17 @@
     opacity: 70%;
     padding: 10px 10px 10px 0;
 }
+.options-more{
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 20px;
+    width: 900px;
+    padding: 20px 90px;
+}
 .options{
     margin: 35px;
-    width: 1000px;
+    width: 900px;
+    
 }
 .break{
     padding: 9px;
@@ -162,6 +147,10 @@
 }
 .out{
     background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     margin-top: 40px;
     padding: 20px; 
@@ -180,7 +169,7 @@
     border: none;
 }
 .post{
-    background-color:white;
+    background-color:rgb(252, 250, 250);
     color: black;
     padding: 15px;
     border: none;
@@ -188,22 +177,16 @@
     font-weight: bold;
     margin-left: 10px;
 }
-.last{
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between; 
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: rgba(255, 251, 246, 0.811);
-}
 
 .item{
-    inline-size: 30px;
+    inline-size: 25px;
     padding: 7px;
+    margin-bottom: 10px;
+    
 }
 .items{
-    padding: 20px;
+    padding: 7px; 
+    margin-top: 15px;
 }
 
 
